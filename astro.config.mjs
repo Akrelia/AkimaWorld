@@ -24,6 +24,7 @@ export default defineConfig({
   base: "/AkimaWorld/",
   trailingSlash: "always",
   integrations: [
+	github(),
     tailwind({
       nesting: true,
     }),
