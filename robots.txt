@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /_astro/
 
-Sitemap: https://akrelia.github.io/AkimaWorld/sitemap-index.xml
+Sitemap: https://akrelia.github.io/sitemap-index.xml
