@@ -11,7 +11,7 @@
     "type-check": "tsc --noEmit --isolatedDeclarations",
     "new-post": "node scripts/new-post.js",
     "format": "biome format --write ./src",
-    "deploy": "pnpm build && gh-pages -d dist -b gh-pages",
+    "deploy": "gh-pages -d dist",
     "lint": "biome check --write ./src",
     "preinstall": "npx only-allow pnpm"
   },
