@@ -1,2 +1,0 @@
-# AkimaWorld
-A personnal blog
