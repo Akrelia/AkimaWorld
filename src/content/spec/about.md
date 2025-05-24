@@ -1,6 +1,6 @@
 # About
 
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+I’m a French **Software Engineer** who gradually turned into a **Game Developer** / **Designer**.
 
 ::github{repo="Akrelia/RoseRevolution"}
 

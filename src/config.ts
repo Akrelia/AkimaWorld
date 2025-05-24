@@ -26,15 +26,15 @@ export const siteConfig: SiteConfig = {
 	},
 	toc: {
 		enable: true, // Display the table of contents on the right side of the post
-		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
+		depth: 3, // Maximum heading depth to show in the table, from 1 to 3
 	},
 	favicon: [
 		// Leave this array empty to use the default favicon
-		// {
-		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
+		 {
+		   src: '/favicon/favicon.ico',    // Path of the favicon, relative to the /public directory
 		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
 		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-		// }
+		 }
 	],
 };
 
@@ -44,45 +44,40 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		LinkPreset.About,
 		{
-			name: "GitHub",
-			url: "https://github.com/saicaca/fuwari", // Internal links should not include the base path, as it is automatically added
+			name: "Portfolio",
+			url: "https://akrelia.github.io/Portfolio/", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
-		},
-		{
-			name: "Saucisse",
-			url: "https://github.com/saicaca/fuwari",
-			external: true,
-		},
+		}
 	],
 };
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/mememe.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "Akima",
-	bio: "Personal technical blog about games, softwares and much more.",
+	bio: "A personal dev blog about game dev, softwares and much more.",
 	links: [
 		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
+			name: "Mail",
+			icon: "fa6-solid:envelope", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://twitter.com",
-		},
-		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
-		},
+			url: "mailto:builtbyakima@gmail.com",
+		},		
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
+			url: "https://github.com/users/Akrelia/",
+		},
+		{
+			name: "YouTube",
+			icon: "fa6-brands:youtube",
+			url: "https://www.youtube.com/@theunknownbox2254",
 		},
 	],
 };
 
 export const licenseConfig: LicenseConfig = {
-	enable: true,
+	enable: false,
 	name: "CC BY-NC-SA 4.0",
 	url: "https://creativecommons.org/licenses/by-nc-sa/4.0/",
 };
