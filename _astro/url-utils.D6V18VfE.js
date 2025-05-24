@@ -1,0 +1,1 @@
+import"./zh_TW.EgAPtJY2.js";function i(o,e){const n=o.replace(/^\/|\/$/g,"").toLowerCase(),r=e.replace(/^\/|\/$/g,"").toLowerCase();return n===r}function t(...o){return o.join("/").replace(/\/+/g,"/")}function c(o){return t("","/AkimaWorld/",o)}export{i as p,c as u};
